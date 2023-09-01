@@ -19,25 +19,29 @@
     <main><!--carosello con img-->
         <div class="container">
             
-            <div class="d-flex flex-row justify-content-center mt-5">
-                <button type="button" class="btn">PREVIOUS</button>
+            <div class="d-flex flex-row mt-5 img-box">
+                <button type="button" id="previous" class="btn">PREVIOUS</button>
                 <!--immagine grande-->
-                    <div class="active-img img-box">
+                    <div class="passive-img active-img ">
                         <img src="/img/01.webp" alt="Spiderman">
+                        <div class="img-text">
+                            <h2></h2>
+                            <p></p>
+                        </div>
                     </div>                       
-                    <div class="passive-img img-box">
+                    <div class="passive-img">
                         <img src="/img/02.webp" alt="Ratchet & Clank">
                     </div>
-                    <div class="passive-img img-box">
+                    <div class="passive-img">
                         <img src="/img/03.webp" alt="Personaggi">
                     </div>
-                    <div class="passive-img img-box">
+                    <div class="passive-img">
                         <img src="/img/04.webp" alt="Gatto con gli stivali">
                     </div>
-                    <div class="passive-img img-box">
+                    <div class="passive-img">
                         <img src="/img/05.webp" alt="Avengers"> 
                     </div>    
-                <button type="button" class="btn">NEXT</button>
+                <button type="button" id="next" class="btn">NEXT</button>
             </div>
         </div>
     </main>

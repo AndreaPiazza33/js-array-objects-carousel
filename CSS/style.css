@@ -13,6 +13,10 @@ img{
     width: 800px;
     height: 500px;
 }
+.img-text{
+    text-align: left;
+    color: rgb(4, 21, 4);
+}
 
 .passive-img{
     display: none;
